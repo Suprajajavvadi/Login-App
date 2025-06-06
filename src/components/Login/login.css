@@ -1,0 +1,138 @@
+.login-main-div{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-inner-div{
+    height:90vh;
+    width:350px;
+    background-color:white;
+    border: solid 2px rgb(174, 169, 169);
+}
+.signin-content{
+    margin-left: 10px;
+}
+.fullname{
+    height:20px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    border: solid 2px rgb(202, 197, 197);
+    padding:3px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.phonenumber{
+    height:20px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    border: solid 2px rgb(202, 197, 197);
+    padding:3px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.email{
+    height:20px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    border: solid 2px rgb(202, 197, 197);
+    padding:3px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.password{
+    height:20px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    border: solid 2px rgb(202, 197, 197);
+    padding:3px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.company{
+    height:20px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    border: solid 2px rgb(202, 197, 197);
+    padding:3px;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.name{
+    color:red;
+}
+.create-button-login{
+    height:35px;
+    width:325px;
+    border-width:0px;
+    border-radius: 5px;
+    background-color: rgb(66, 66, 223);
+    color:white;
+    padding:0px !important;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.heading{
+    color:blue
+}
+.email-box{
+    height:25px;
+    width:310px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding:3px;
+    margin-top:8px;
+    margin-bottom: 10px;
+    outline: none;
+
+    
+}
+
+.email-box:focus {
+  border: none;          
+  outline: none;         
+  box-shadow: none;    
+}
+.email-heading{
+    margin-top: 10px;
+    color:rgb(83, 83, 237);
+    position:absolute;
+    top:-53%;
+    left:5%;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+    width:35%;
+    }
+.email-input-div{
+    position:relative;
+    border:1px solid grey;
+    margin-right: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    border-radius: 7px;
+    margin-bottom:10px;
+    
+
+}
+.error {
+  color: red;
+  font-size: 9px;
+  
+  display: block;
+  margin-bottom:10px;
+}
+.account-heading{
+    font-size:23px;
+}

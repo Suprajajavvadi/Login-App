@@ -1,0 +1,63 @@
+.main-div-info{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-div-info{
+    height:90vh;
+    width:350px;
+    background-color:white;
+    border:1px solid grey;
+    padding-left:10px;
+    padding-right:10px;
+}
+.image-div{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    position:relative;
+
+}
+.profile-image{
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.cam-icon{
+    color:white;
+    font-size:15px
+}
+.cam-icon-div{
+    background-color: blueviolet;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:52%;
+    right:-10%;
+}
+.user-details{
+    display:flex;
+    
+
+}
+.user-name-email{
+    margin-left: 20px;
+
+}
+.user-name-email>h3,.user-name-email>p{
+    margin:0
+
+}
+.settings-para{
+    font-size:15px;
+}
+.setting-inner-div{
+    border-bottom:1px dashed grey;
+    
+}

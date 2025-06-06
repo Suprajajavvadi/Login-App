@@ -1,0 +1,52 @@
+.main-div-home{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner-div-home{
+    height:90vh;
+    width:320px;
+    background-color: white !important;
+    border: solid 2px rgb(202, 197, 197);
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+.welcome-page-content{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.welcome-heading{
+    font-family: "Roboto";
+    font-size:24px;
+}
+.welcome-paragraph{
+    color:grey; 
+}
+.create-button{
+    height:35px;
+    width:300px;
+    border-width:0px;
+    border-radius: 5px;
+    background-color: rgb(66, 66, 223);
+    color:white;
+    padding:0px !important;
+    margin:0px !important;
+    
+}
+.register-button{
+    height:35px;
+    width:300px;
+    border-width:0px;
+    border-radius: 5px;
+    background-color: rgb(158, 141, 215);
+    color:black;
+    margin-bottom:0px;
+    
+}
